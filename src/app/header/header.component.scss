@@ -1,0 +1,39 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #f3f3f3;
+  padding-top: 50px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container .logo .page-title {
+  color: #181717;
+}
+
+header .container .links {
+  display: flex;
+}
+
+header .container .links a {
+  color: #181717;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #181717;
+    color: #f3f3f3;
+  }
+}

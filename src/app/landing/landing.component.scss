@@ -1,0 +1,24 @@
+section {
+  background-color: #f3f3f3;
+  padding: 150px 0;
+  position: relative;
+}
+
+section .container .row h1.col {
+  font-weight: bold;
+}
+
+section .container .row p.col {
+  font-size: 26px;
+  font-weight: 500;
+  word-spacing: 1px;
+  color: #606060;
+  line-height: 1.4;
+}
+
+section .container i {
+  position: absolute;
+  left: 120px;
+  bottom: 20px;
+  font-size: 30px;
+}

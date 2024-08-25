@@ -1,0 +1,70 @@
+section {
+  background-color: #f3f3f3;
+  padding: 100px;
+}
+
+section .container .row .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section .container .row .info .card-info {
+  max-width: 370px;
+}
+
+section .container .row .info .card-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #181717;
+  word-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+section .container .row .info p {
+  font-size: 20px;
+  color: #606060;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+section .container .row .image .card-img {
+  width: 350px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #606060;
+}
+
+section .container .row .image .card-img img {
+  max-width: 100%;
+}
+
+section .container .row .software {
+  margin-top: 80px;
+  display: flex;
+  gap: 70px;
+}
+
+section .container .row .software .title {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+section .container .row .software p {
+  width: 400px;
+}
+
+section .container .row .skills {
+  margin-top: 20px;
+  display: flex;
+  gap: 70px;
+}
+
+section .container .row .skills .title {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+section .container .row .skills p {
+  width: 400px;
+}
